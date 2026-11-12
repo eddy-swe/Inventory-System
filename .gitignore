@@ -22,3 +22,30 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+/todo.md
+*.mgx
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test and tooling output
+coverage
+.nyc_output
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.cache
+.parcel-cache
+.turbo
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
